@@ -1,4 +1,5 @@
 
+//* src/main/java/com/redhat
 package com.redhat;
 
 import org.springframework.boot.SpringApplication;

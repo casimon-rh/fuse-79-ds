@@ -12,7 +12,6 @@
     <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring-version>1.4.0.RELEASE</spring-version>
-    <cxf-version>3.2.7.fuse-740026-redhat-00001</cxf-version>
     <openjdk18-openshift.version>latest</openjdk18-openshift.version>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>

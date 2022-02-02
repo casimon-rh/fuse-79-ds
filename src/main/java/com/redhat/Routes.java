@@ -17,7 +17,11 @@ public class Routes extends RouteBuilder {
     rest()
       .path("/").consumes("application/json").produces("application/json")
         .post("/customer")
-          .to("direct:post-customer");
+          .to("direct:post-customer")
+          .get("/")
+            .to("direct:post-customer")
+            .get("/customer")
+              .to("direct:post-customer");
     
     from("direct:post-customer")
       .setHeader("HTTP_METHOD", constant("POST"))
